@@ -915,7 +915,7 @@ $(window).on('load', function() {
       credit += ' | ';
     }
 
-    credit += 'View <a href="' + getSetting('_githubRepo') + '">code</a>';
+    credit += 'Tải lại <a href="' + getSetting('_githubRepo') + '">refresh</a>';
     if (getSetting('_codeCredit')) credit += ' by ' + getSetting('_codeCredit');
     credit += ' with ';
     $('.leaflet-control-attribution')[0].innerHTML = credit + attributionHTML;
